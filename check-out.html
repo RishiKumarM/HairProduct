@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GK Hair</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- slick cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+</head>
+<body>
+
+ <div class="top-header">
+  <div class="container">
+    <div class="main-top-list">
+      <p >Free Shipping</p>
+      <form action="index_submit" method="get" accept-charset="utf-8">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search ......" aria-label="Recipient's username">
+          <div class="input-group-append">
+            <span class="input-group-text"><img src="image/search.svg"></span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<header id="header" class="navbar-wrapper-fix sticky header-detail-page-main">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark inner-page-header header-detail-page">
+      <a class="navbar-brand d-lg-none" href="#"><img src="image/logo.png" alt="" class="mb-logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">The Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+
+        <a class="navbar-brand ds-none d-lg-block logohomecolor" href="#">
+          <img src="image/logo.png" alt="">
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Find A Salon</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link cart-inner-white" href="javascript:void()"  id="navbarSideButton">
+              <img src="image/add.png" alt="">
+            </a>
+            <div class="navbar-side" id="navbarSide">
+              <div class="cart-box text-center">
+                <div class="row pb-5">
+                  <div class="col-sm-4">
+                    <div class="img-box">
+                      <img src="image/product-new5.png" alt="cart">
+                    </div>
+                  </div>
+                  <div class="col-sm-8 my-auto">
+                    <div class="close"><i class="fa fa-times"></i></div>
+                    <div class="cart-text text-left my-auto">
+                      <h4>Cashmere</h4>
+                      <div class="d-flex justify-content-between">
+                        <p>QUANTITY <span>(2)</span></p>
+                        <p>19,00.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="img-box">
+                      <img src="image/product-new1.png" alt="cart">
+                    </div>
+                  </div>
+                  <div class="col-sm-8 my-auto">
+                    <div class="close"><i class="fa fa-times"></i></div>
+                    <div class="cart-text text-left my-auto">
+                      <h4>BALANCING SHAMPOO & CONDITIONER</h4>
+                      <div class="d-flex justify-content-between">
+                        <p>QUANTITY <span>(2)</span></p>
+                        <p>19,00.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overlay"></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header><!-- /header -->
+
+<section class="carthead bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title">
+          <h3 class="text-center p-4 text-uppercase font-weight-bold">Checkout</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="checkout">
+  <div class="sub-checkout">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="billing-detail">
+            <h3 class="pt-5 pb-2 mb-4 text-center">Billing Details</h3>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="First Name..*">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Last Name..*">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Company name (optional)..*">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Country / Region..*">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Street address...*">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Town / City...*">
+            </div>
+            <div class="form-group">
+              <select class="custom-select form-control">
+                <option selected>State...*</option>
+                <option value="1">Delhi</option>
+                <option value="2">Punjab</option>
+                <option value="3">Haryana</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Pin code...*">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone...*">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Email address...*">
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-3">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="order-detail">
+          <h4 class="pb-4 pt-5 font-weight-bold"> Your Order </h4>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>product</th>
+                <th>total</th>
+              </tr>
+            </thead>
+            <tr>
+              <td><span>Belancing Shampoo & Conditioner 300 Ml  </span></td>
+              <td><span>3,300.00</span></td>
+            </tr>
+            <tr>
+              <td><span>Belancing Shampoo & Conditioner 600 Ml  </span></td>
+              <td><span>3,800.00</span></td>
+            </tr>
+            <tr>
+              <td class="text-c"><span>Sub Total  </span></td>
+              <td class="text-c"><span>5,500.00</span></td>
+            </tr>
+            <tr>
+              <td class="text-c"><span>Total  </span></td>
+              <td class="text-c"><span>5,500.00</span></td>
+            </tr>
+          </table>
+        </div>
+        <div class="payment-term pt-4 pb-4">
+          <h3 class="pb-3">CCAvenue</h3>
+          <img src="image/payment-accept.png">
+          <p class="text-uppercase pt-4 pb-4">Pay securely by Credit or Debit card or internet banking through CCAvenue Secure Servers.</p>
+        </div>
+
+        <div class="payemnt-process">
+          <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="javascript:void()"> privacy policy.</a> </p>
+          <div class="d-flex">
+            <input type="checkbox" class="select-text">
+            <p>I have read and agree to the website <a href="javascript:void()"> terms and conditions *</a> </p>
+          </div>
+
+          <button type="button" class="btn"> Proceed to pay</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="sercive">
+  <div class="container">
+    <div class="d-flex justify-content-around flex-sm-row flex-column">
+      <p><i class="fa fa-bus"></i> free delivery in india</p>
+      <p> <i class="fa fa-plus" aria-hidden="true"></i> next day dispatch</p>
+      <p><i class="fa fa-comment"></i> free conultation</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="f-list">
+          <ul>
+            <h4 class="pb-2">customer care</h4>
+            <li><a href="#">Shipping policy</a> </li>
+            <li><a href="#">Return & Refund Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="f-list">
+          <ul>
+            <h4 class="pb-2">about gk hair india</h4>
+            <li><a href="#">blog</a> </li>
+            <li><a href="#">faqs</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="f-list">
+          <ul>
+            <h4 class="pb-2">need help?</h4>
+            <li><a href="#"> <i class="fa fa-phone"></i> 0124 401 5666</a> </li>
+            <li><a href="#"> <i class="fa fa-phone-square"></i> 1800 123 1696</a></li>
+            <li><a href="#"> <i class="fa fa-envelope-o"></i> customer.support@maisondauraine.com</a></li>
+            <li><a href="#"> <i class="fa fa-map-marker"></i> 3rd Floor, Plot No- 15, Sector – 44, Gurgaon-122002, (Haryana) India</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="f-list">
+          <h4 class="pb-2">get in touch</h4>
+          <p>styleing hacks, sneak peaks + special offers, in your inbox</p>
+
+          <div class="form-group d-flex ">
+            <input type="text" class="form-control flex-grow-1"  placeholder="Enter Your Email">
+            <button type="button" class="btn"> Sign up</button>
+          </div>
+
+          <div class="payment-icon">
+            <img src="image/payment.png" class="img-fluid" alt="payment">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- / Testimonial Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+
+<script>
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 40) {
+      $('.sticky').addClass('fixed');
+      $('body').addClass('pd_add');
+    } else {
+      $('.sticky').removeClass('fixed');
+      $('body').removeClass('pd_add');
+
+    }
+  });
+
+</script>
+
+
+
+<script>
+  $(document).ready(function() {
+    $('#navbarSideButton').on('click', function() {
+      $('#navbarSide').addClass('reveal');
+      $('.overlay').show();
+    });
+
+    $('.overlay').on('click', function(){
+      $('#navbarSide').removeClass('reveal');
+      $('.overlay').hide();
+    });
+  });
+
+</script>
+
+
+
+</body>
+</html>
